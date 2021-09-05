@@ -25,7 +25,7 @@ module.exports = function (config) {
       suppressAll: true // removes the duplicated traces
     },
     coverageReporter: {
-      dir: require('path').join(__dirname, './coverage/crypto-stash'),
+      dir: require('path').join(__dirname, './coverage/docker-frontend'),
       subdir: '.',
       reporters: [
         { type: 'html' },
